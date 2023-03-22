@@ -14,10 +14,11 @@ function calculadora(valor1, operacao, valor2){
         case "/":
             return console.log(valor1 / valor2)
         default:
-            "Operação inválida."
+            console.log("Operação inválida.")
     }
 }
 calculadora(2, "+", 3)
 calculadora(2, "-", 3)
 calculadora(2, "*", 3)
 calculadora(10, "/", 2)
+calculadora(10, "**", 2)
